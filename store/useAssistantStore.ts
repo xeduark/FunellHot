@@ -38,7 +38,7 @@ interface AssistantState {
   editingAssistantId: string | null;
   theme: 'light' | 'dark';
   
-  // Actions
+  // Acciones
   setAssistants: (assistants: Assistant[]) => void;
   addAssistant: (assistant: Assistant) => void;
   updateAssistant: (assistant: Assistant) => void;

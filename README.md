@@ -161,4 +161,4 @@ El sistema de diseño se basa en **Tailwind CSS**.
 *   **Diseño:** Inspirado en interfaces SaaS modernas (tipo Vercel/Linear), priorizando el espacio en blanco y la claridad tipográfica.
 
 ---
-© 2024 **Prueba Final**. Implementado por un Senior Frontend Engineer.
+© 2024 **Prueba Final**. Implementado por un Junior Frontend.

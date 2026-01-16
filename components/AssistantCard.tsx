@@ -12,10 +12,10 @@ interface AssistantCardProps {
 
 const AssistantCard: React.FC<AssistantCardProps> = ({ assistant, onEdit, onDelete, onTrain }) => {
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-xl shadow-sm border border-slate-200 dark:border-slate-800 overflow-hidden hover:shadow-md dark:hover:shadow-indigo-900/10 transition-all group">
+    <div className="bg-white dark:bg-slate-900 rounded-xl shadow-sm border border-fuchsia-200 dark:border-slate-fuchsia overflow-hidden hover:shadow-md dark:hover:shadow-indigo-900/10 transition-all group">
       <div className="p-6">
         <div className="flex justify-between items-start mb-4">
-          <div className="w-12 h-12 rounded-lg bg-indigo-50 dark:bg-indigo-900/30 flex items-center justify-center text-indigo-600 dark:text-indigo-400">
+          <div className="w-12 h-12 rounded-lg bg-indigo-50 dark:bg-indigo-900/30 flex items-center justify-center text-fuchsia-600 dark:text-fuchsia-400">
             <span className="text-xl font-bold">{assistant.name.charAt(0)}</span>
           </div>
           <div className="flex space-x-1 opacity-0 group-hover:opacity-100 transition-opacity">

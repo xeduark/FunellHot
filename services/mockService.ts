@@ -8,7 +8,7 @@ export const mockService = {
     await sleep(800);
     return localAssistants;
   },
-
+// Simula la creación de un nuevo asistente
   createAssistant: async (data: AssistantFormData): Promise<Assistant> => {
     await sleep(1000);
     return {
@@ -20,18 +20,18 @@ export const mockService = {
 
   updateAssistant: async (id: string, data: Partial<Assistant>): Promise<Assistant> => {
     await sleep(800);
-    // Simulating finding and updating
+    // regresata el asistente actualizado
     return { id, ...data } as Assistant;
   },
 
   deleteAssistant: async (id: string): Promise<void> => {
     await sleep(600);
-    // 10% probability of error as per requirement
+    // 10% probabilidad de error simulado
     if (Math.random() < 0.1) {
       throw new Error("Error aleatorio al eliminar el asistente. Inténtalo de nuevo.");
     }
   },
-
+// Simula guardar las reglas del asistente RECORDAR QUE ES LOCAL
   saveRules: async (id: string, rules: string): Promise<void> => {
     await sleep(1000);
   }

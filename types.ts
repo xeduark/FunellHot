@@ -1,7 +1,7 @@
-
+//aqui lo que hacemos es enviar los idiomas IMPORTANTE
 export type Language = 'Español' | 'Inglés' | 'Portugués';
 export type Tone = 'Formal' | 'Casual' | 'Profesional' | 'Amigable';
-
+// TIPAMOS LAS RESPUESTAS
 export interface ResponseLength {
   short: number;
   medium: number;
