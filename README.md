@@ -48,8 +48,8 @@ Para ejecutar este proyecto en un entorno de desarrollo local, siga estos pasos:
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone https://github.com/tu-usuario/funnelhot-ai-manager.git
-    cd funnelhot-ai-manager
+    git clone https://github.com/xeduark/FunellHot.git
+    cd PRUEBATECNICA
     ```
 
 2.  **Instalar dependencias:**
@@ -60,8 +60,7 @@ Para ejecutar este proyecto en un entorno de desarrollo local, siga estos pasos:
     ```bash
     npm install -D tailwindcss@3 postcss autoprefixer
     # npx tailwindcss@3 init -p
-    ## Para crear dos archivos fundamentales para los estilos tailwind.config.js
-postcss.config.js
+    ## Para crear dos archivos fundamentales para los estilos tailwind.config.js Y postcss.config.js
     ```
 
 3.  **Iniciar el servidor de desarrollo:**
@@ -161,4 +160,4 @@ El sistema de diseño se basa en **Tailwind CSS**.
 *   **Diseño:** Inspirado en interfaces SaaS modernas (tipo Vercel/Linear), priorizando el espacio en blanco y la claridad tipográfica.
 
 ---
-© 2024 **Prueba Final**. Implementado por un Junior Frontend.
+© 2024 **Prueba Final**. Implementado por un Desarrollador Frontend.
