@@ -1,0 +1,5 @@
+{
+  "name": "Funnelhot AI Assistant Manager",
+  "description": "A professional dashboard to manage, configure, and train AI assistants with multi-step forms, real-time chat simulation, and robust state management using Zustand and React Query.",
+  "requestFramePermissions": []
+}
